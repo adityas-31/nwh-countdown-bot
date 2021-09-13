@@ -38,7 +38,7 @@ while True:
     d1 = date.today()
     d_test = datetime.now()
     #giving the time for image to get generated and uploaded
-    time_to_upload = "12:00"
+    time_to_upload = "14:22"
     #extracting current time (every 60s, because of the sleep function in the bottom)
     extract_time = str(d_test)[11:16]
     # print("time now - " , extract_time)
