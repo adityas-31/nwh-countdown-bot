@@ -48,7 +48,7 @@ while True:
     count = str(count)
     time_now = datetime.now().time()
     # print(count)
-    api.update_status(extract_time)
+    
 
     #runs a function that generates and saves the image for that particular day
     
