@@ -76,7 +76,7 @@ while True:
             api.send_direct_message( recipient_id= str(my_id) , text= "tweet sent!")
 
         elif int(count) == 0:
-            image_gen(count , random.choice(template_path_list))
+            image_gen(count , template_path_list[0])
             message = "TODAY IS THE DAY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
             api.update_with_media(file_name , status = message)
             api.send_direct_message( recipient_id= str(my_id) , text= "tweet sent!")
